@@ -1,7 +1,10 @@
 import React from 'react';
+import TodoContext from '../Store/TodoContext';
+import { useContext } from 'react';
 
-const TodoItem = ({ id, todoText, todoDate, deleteTodoItem  }) => {
+const TodoItem = ({ id, todoText, todoDate,   }) => {
  
+  const {deleteTodoItem}=useContext(TodoContext)
 //   const deleteHandler =()=>{
 //   deleteTodoItem(id)
 //  }

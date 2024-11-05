@@ -8,7 +8,6 @@ function App() {
 
   return (
     <ThemeProvider className='flex flex-col items-center justify-center'>
-     
       <Welcome/>
       <ThemeToggle/>
     </ThemeProvider>

@@ -8,7 +8,7 @@ const TodoItems = () => {
   return (
     <div>
       {
-        todoItems.map((item)=>{return <TodoItem key={item.id} id={item.id} todoText={item.todoText} todoDate={item.todoDate} deleteTodoItem={deleteTodoItem} />})
+        todoItems.map((item)=>{return <TodoItem key={item.id} id={item.id} todoText={item.todoText} todoDate={item.todoDate}  />})
       }
     </div>
   );
